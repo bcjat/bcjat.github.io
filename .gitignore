@@ -1,5 +1,5 @@
 # hidden files
-.*
+.container
 
 # python compiled files
 *.pyc
