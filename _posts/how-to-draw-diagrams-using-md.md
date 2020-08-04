@@ -1,4 +1,3 @@
-```
 ---
 title: 	Example Diagrams
 date: 2020-08-02 23:50:12 +0530
@@ -6,7 +5,6 @@ categories: [Technology, Markdown]
 tags: [mermaid]     # TAG names should always be lowercase
 author: Balvant Jat
 ---
-```
 
 
 
@@ -14,20 +12,17 @@ author: Balvant Jat
 
 ### Simple Sequence Diagram
 
-~~~gfm
-```sequence
+```mermaid
+sequenceDiagram
 Alice->Bob: Hello Bob, how are you?
 Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
 ```
-~~~
 
 
 
-### Flow Diagram
-
-~~~gfm
-```flow
+```mermaid
+flow
 st=>start: Start
 op=>operation: Your Operation
 cond=>condition: Yes or No?
@@ -37,15 +32,12 @@ st->op->cond
 cond(yes)->e
 cond(no)->op
 ```
-~~~
 
 
 
 ### Complex Sequence Diagram 
 
-~~~gfm
 ```mermaid
-%% Example of sequence diagram
   sequenceDiagram
     Alice->>Bob: Hello Bob, how are you?
     alt is sick
@@ -56,5 +48,5 @@ cond(no)->op
     opt Extra response
     Bob->>Alice: Thanks for asking
     end
-~~~
+```
 
