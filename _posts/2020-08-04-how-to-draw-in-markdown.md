@@ -1,6 +1,6 @@
 ---
-title: 	Example Diagrams
-date: 2020-08-02 23:50:12 +0530
+title: How to draw in markdown
+date: 2020-08-04 23:50:12 +0530
 categories: [Technology, Markdown]
 tags: [mermaid]     # TAG names should always be lowercase
 author: Balvant Jat
